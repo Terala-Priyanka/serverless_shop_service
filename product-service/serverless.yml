@@ -124,6 +124,10 @@ functions:
 #       Value: "Some output value"
 plugins:
   - serverless-plugin-swagger-ui
+  - serverless-webpack
+
+package:
+  individually: true
 
 custom:
   swaggerUi:

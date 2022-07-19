@@ -1,7 +1,7 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "version" : "2022-07-19T08:07:51Z",
+    "version" : "2022-07-19T09:52:07Z",
     "title" : "dev-product-service"
   },
   "host" : "bjuk3krz0k.execute-api.us-east-1.amazonaws.com",
