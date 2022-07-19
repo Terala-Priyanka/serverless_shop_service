@@ -59,14 +59,14 @@ provider:
 #    - include-me-dir/**
 
 functions:
-  productList:
-    handler: getProductList.productList
+  getProductList:
+    handler: lambdas/getProductList.handler
     events:
       - http:
           path: products
           method: get
-  productById:
-    handler: getProductById.productById
+  getProductById:
+    handler: lambdas/getProductById.handler
     events:
       - http:
           path: product/{id}

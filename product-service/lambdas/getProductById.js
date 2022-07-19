@@ -1,8 +1,9 @@
 'use strict';
+const products = require('../constants/productList.json');
 
-module.exports.productById = async (event) => {
+module.exports.handler = async (event) => {
 	const productId = event.pathParameters.id;
-  const products = require('./productList.json');
+  
 	const filteredproduct = products.filter(item => item.id === productId);
   const product = filteredproduct.length ? filteredproduct[0] : null;
 
