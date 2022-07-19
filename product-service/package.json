@@ -1,12 +1,15 @@
 {
-  "name": "serverless_shop_service",
+  "name": "product-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "getProductById.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "serverless-plugin-swagger-ui": "^1.1.1",
+    "js-yaml": "^4.1.0"
+  }
 }
