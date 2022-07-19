@@ -1,7 +1,6 @@
-'use strict';
-const products = require('../constants/productList.json');
+import products from "../constants/productList.json";
 
-module.exports.handler = async (event) => {
+export const handler = async (event) => {
   return {
     isBase64Encoded: false,
     statusCode: 200,
