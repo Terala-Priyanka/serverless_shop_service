@@ -1,0 +1,5 @@
+insert into product(title, description, price) values ('Product1', 'This is product1', '10);
+insert into product(title, description, price) values ('Product2', 'This is product2', '20);
+
+insert into stocks(product_id, count) values ('e9269e02-22cd-4c08-833b-d27ab6536a03', 5);
+insert into stocks(product_id, count) values ('129af890-44c7-4632-98ae-739ba08b81cb', 10);
